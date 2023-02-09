@@ -1,15 +1,157 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
 <head>
     <title>Mi Web Calata</title>
 </head>
 <body>
+    <table style=" width: 500px;">
+        <thead>
+            <tr>
+                <th>
+                    Producto:
+                </th>
+                <th>
+                    Precio:
+                </th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Drogaporro
+                </td>
+                <td>
+                    Gratis
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Drogaperri
+                </td>
+                <td>
+                    Caro
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    LSD
+                </td>
+                <td>
+                    MUCHA PLATA!!
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>TOTAL:</td>
+            <td>Mucha plataa</td>
+        </tfoot>
+        
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>
+            Elemento 1
+        </li>
+        <li>
+            Elemento 2
+        </li>
+        <li>
+            Elemento 3
+        </li>
+        <li>
+            Elemento 4
+        </li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">
+            Elemento 1
+        </li >
+        <li value="66">
+            Elemento 2
+        </li>
+        <li>
+            Elemento 3
+        </li>
+        <li>
+            Elemento 4
+        </li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">
+                    Sub Elemento1</li>
+                <li style="list-style-type: lower-roman;">
+                    Sub Elemento2</li>
+                <li style="list-style-type: lower-roman;">
+                    Sub Elemento3</li>
+                <li style="list-style-type: lower-roman;">
+                    Sub Elemento4</li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="post">
+        <!-- METHOD: POST se "crea un formulario", GET la información se transmite por url-->
+        <label for="nombre">Nombre</label>
+        <br>
+        <input value="valor" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <br>
+        <input value="valor2" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <textarea  name="comentario" id="comentario" placeholder="Ingrese Comentario" cols="30" rows="10">Valor3</textarea>
+        <br>
+        <button type="button">Tipo botón</button>
+        <br>
+        <button type="reset">Tipo reset</button>
+        <br>
+        <button type="submit">Tipo submit</button>
+        <!-- button reset submit-->
+    </form> 
     <h1>
         Mi primer heading :)
     </h1>
     <h2>
         Mi segundo heading :)
     </h2>
-        
+    <h3>
+        Mi tercer heading :)
+    </h3>
+    <h4>
+        Mi cuarto heading :)
+    </h4>
+    <h5>
+        Mi quinto heading ;)
+    </h5>
+    <h6>
+        Mi sexto heading :))
+    </h6>
+    <p>
+        Viva Perúuuu csmmm!!!!!!!!
+    </p>
+    <p>
+        Me van a matar causaa gaaa!!!!!
+    </p>
+    <hr>
+    <h2>
+        Pura Vida!!
+    </h2>
+    <p>
+        Costa rica Pura Vida!!! 
+        <span style="color:aqua"> mucho más largo</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nesciunt totam odio eaque laboriosam facere, aspernatur animi iste. 
+        <br> Placeat unde incidunt harum reprehenderit itaque. Rem quam placeat exercitationem perferendis aliquid harum.
+    </p>
+    <!-- Esto es un comentario en html y no aparece en el navegador!!!!-->
+
+    <a target="_blank" href="https://www.google.co.cr">
+        Ir a google
+    </a>
+    <img src="img/happypig.jpg" width="400" height="400"/>
+    <!--no es necesario poner width y height-->
 </body>
 </html>
